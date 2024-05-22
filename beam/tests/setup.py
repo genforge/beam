@@ -1,9 +1,7 @@
 import datetime
-import types
 from itertools import groupby
 
 import frappe
-from erpnext.accounts.doctype.account.account import update_account_number
 from erpnext.manufacturing.doctype.production_plan.production_plan import (
 	get_items_for_material_requests,
 )
